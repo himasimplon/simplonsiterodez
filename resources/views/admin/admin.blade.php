@@ -1,9 +1,11 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+
+        <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Accueil administrateur</div>
+
 
                 <div class="card-body">
                     @if (session('status'))
@@ -12,15 +14,34 @@
                         </div>
                     @endif
 
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" placeholder="Enter your information" class="form-control"> 
-                        </div>
-                        <div class="form-group">
-                            <textarea name="content" id="content" class="form-control" cols="30" rows="10"></textarea> 
-                        </div>
-                    </form>
+
+                    You are logged in!
                 </div>
+                <div class="top-right links">
+                    @if (Route::has('login'))
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <a href="{{ route('register') }}">Register</a>
+                    @endauth
+                </div>
+                    @endif
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-12">
+                           <div class="col-md-4">
+                                <h1 class="card-title">Tableau de bord</h1>
+                                <ul>
+                                    <a href="{{ }}">Projets</a>
+                                    <a href="{{ }}">Catégories</a>
+                                    <a href="{{ }}">Gestion des comptes utilisateurs</a>
+                                </ul>
+                            </div> 
+                        </div>
+                    </div>
+                </div>    
+
             </div>
         </div>
     </div>
