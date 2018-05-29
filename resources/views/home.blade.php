@@ -14,6 +14,8 @@
                         </div>
                     @endif
 
+                    You are logged in!
+
                     <form action="">
                         <div class="form-group">
                             <input type="text" placeholder="Enter your information" class="form-control"> 
