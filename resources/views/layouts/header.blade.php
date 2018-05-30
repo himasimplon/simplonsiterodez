@@ -13,10 +13,12 @@
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
 		<img class="headerlogo"  src="../../../storage/app/public/img/header_logo_simplon.png">
+		{{ HTML::image('img/header_logo_simplon.png', 'image of simplon rodez logo', array('class' => 'header_logo')) }}
 	</div>
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
 		<img class="headerimage" src="../../../storage/app/public/img/header_logo_ern_and_ra.png">	
+		{{ HTML::image('img/header_logo_ern_and_ra.png', 'image of logos of ecole regionale du numeriqe and rodez agglomération', array('class' => 'header_sub_logo')) }}
 	</div>	
 </header>		
 
