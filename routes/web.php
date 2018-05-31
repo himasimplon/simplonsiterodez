@@ -18,3 +18,28 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('about', function () {
+    return view('about');
+})->middleware('backoffice::class');
+
+Route::get('/home_bo', function () {
+    return view('home_bo');
+});
+
+Route::get('/page1_bo', function () {
+    return view('page1_bo');
+});
+
+Route::get('/page2_bo', function () {
+    return view('page2_bo');
+});
+
+Route::get('/page3_bo', function () {
+    return view('page3_bo');
+});
+
+Route::get('/page4_bo', function () {
+    return view('page4_bo');
+});
+

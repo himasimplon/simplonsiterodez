@@ -31,9 +31,11 @@
 
 <nav class="row">
 	<!-- navigationbar Version navigateur  -->
+
+	
 	<div class="col-lg-12 col-sm-0 red inverted">
 		<ul class="list-unstyled">
-			<li><a href="#"> Acceuil    </a></li>
+			<li><a href="#"> Accueil    </a></li>
 			<li><a href="#"> Simplon    </a></li>
 			<li><a href="#"> Formations </a></li>
 			<li><a href="#"> Apprenants </a></li>
