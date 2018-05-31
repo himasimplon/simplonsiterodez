@@ -1,0 +1,9 @@
+
+.simplonheader {
+	background-image: url('/img/header_rodez_panorama_flou.jpg');
+	background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
