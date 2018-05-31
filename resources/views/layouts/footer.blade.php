@@ -16,16 +16,16 @@ footer.blade.php -->
 <footer class="page-footer font-small lightgrey pt-4 mt-4">
 	<div class="row">
 		<div class="col-md-2 col-sm-6">
-		<!-- Image stored in folder storage/app/public/img -->
-		{{ HTML::image('img/footer_logo_ecole_regionale_numerique_224x100.png', 'logo ecole regionale numerique', array('class' => 'footer_logo')) }}
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_ecole_regionale_numerique_224x100.png">
 		</div>
 		<div class="col-md-2 col-sm-6">
-		<!-- Image stored in folder storage/app/public/img -->
-		{{ HTML::image('img/footer_logo_rodez_agglomeration_222x100.png', 'logo logo_rodez agglomeration', array('class' => 'footer_logo')) }}
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_rodez_agglomeration_222x100.png">
 		</div>
 		<div class="col-md-2 col-sm-12">
-		<!-- Image stored in folder storage/app/public/img -->
-		{{ HTML::image('img/footer_logo_simplon_rodez_123x100.png', 'simplon rodez logo', array('class' => 'footer_logo')) }}
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_simplon_rodez_123x100.png">
 		</div>
 		<div class="col-md-6 col-sm-12" ">
 			<!-- replace with little circles containing matching symbols -->
