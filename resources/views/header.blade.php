@@ -1,3 +1,5 @@
+@extends('layouts.app')
+
 <!-- header.blade.php -->
 
 <!-- Create proper CSS classes where needed
@@ -34,7 +36,7 @@
 	<!-- navigationbar Version navigateur  -->
 	<div class="col-md-12 col-xs-0 red inverted">
 		<ul>
-			<li><a href="#"> Acceuil    </a></li>
+			<li><a href="#"> Accueil    </a></li>
 			<li><a href="#"> Simplon    </a></li>
 			<li><a href="#"> Formations </a></li>
 			<li><a href="#"> Apprenants </a></li>
