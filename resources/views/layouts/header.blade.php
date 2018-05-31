@@ -12,13 +12,11 @@
 <header class="row">
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
-		<img class="headerlogo"  src="../../../storage/app/public/img/header_logo_simplon.png">
 		{{ HTML::image('img/header_logo_simplon.png', 'image of simplon rodez logo', array('class' => 'header_logo')) }}
 	</div>
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->
-		<img class="headerimage" src="../../../storage/app/public/img/header_logo_ern_and_ra.png">	
-		{{ HTML::image('img/header_logo_ern_and_ra.png', 'image of logos of ecole regionale du numeriqe and rodez agglomération', array('class' => 'header_sub_logo')) }}
+		{{ HTML::image('img/header_logo_ern_and_ra.png', 'logos of ecole regionale du numeriqe and rodez agglomération', array('class' => 'header_sub_logo')) }}
 	</div>	
 </header>		
 
@@ -35,7 +33,7 @@
 <nav class="row">
 	<!-- navigationbar Version navigateur  -->
 	<div class="col-md-12 col-xs-0 red inverted">
-		<ul>
+		<ul class="list-unstyled">
 			<li><a href="#"> Acceuil    </a></li>
 			<li><a href="#"> Simplon    </a></li>
 			<li><a href="#"> Formations </a></li>
@@ -46,7 +44,7 @@
 	</div>
 	<!-- navigationbar Version mobile -->
 	<div class="col-md-0 col-xs-12 red inverted">
-		<ul>
+		<ul class="list-unstyled">
 			<li><strong><a href="#">SIMPLON</a></strong></li>
 			<li><a href="#"><button>MENU</button></a></li>
 		</ul>
