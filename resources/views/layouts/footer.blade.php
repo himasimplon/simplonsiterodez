@@ -13,23 +13,23 @@
 
 
 
-<footer>
+<footer class="page-footer font-small lightgrey pt-4 mt-4">
 	<div class="row">
 		<div class="col-md-2 col-sm-6">
-		<!-- Image stored in folder storage/app/public/img -->
-			<img src="../../../storage/app/public/img/footer_logo_ecole_regionale_numerique_224x100.png">
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_ecole_regionale_numerique_224x100.png">
 		</div>
 		<div class="col-md-2 col-sm-6">
-		<!-- Image stored in folder storage/app/public/img -->
-			<img src="../../../storage/app/public/img/footer_logo_rodez_agglomeration_222x100.png">
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_rodez_agglomeration_222x100.png">
 		</div>
 		<div class="col-md-2 col-sm-12">
-		<!-- Image stored in folder storage/app/public/img -->
-			<img src="../../../storage/app/public/img/footer_logo_simplon_rodez_123x100.png">
+		<!-- Image stored in folder /public/img -->
+		<img src="img/footer_logo_simplon_rodez_123x100.png">
 		</div>
-		<div>
+		<div class="col-md-6 col-sm-12" ">
 			<!-- replace with little circles containing matching symbols -->
-			<ul class="col-md-6 col-sm-12">
+			<ul class="list-unstyled">
 				<li>[twitter]</li>
 				<li>[linkedin]</li>
 				<li>[facebook]</li>
@@ -37,6 +37,13 @@
 			</ul>
 		</div>
 	</div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://simplon.co/"> Simplon Rodez</a>
+  </div>
+  <!-- Copyright -->
+
 </footer>
 
 
