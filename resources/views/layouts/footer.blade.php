@@ -1,4 +1,4 @@
-footer.blade.php -->
+<!-- footer.blade.php -->
 
 
 
