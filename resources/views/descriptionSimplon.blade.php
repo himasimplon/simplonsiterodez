@@ -1,5 +1,5 @@
 {{-- Start Page Description made by:DAVID --}}
-@extends('layouts.footer')
+@extends('footer')
 @section('description')
 <div class="block">
 	<div class="col-md-12">
@@ -65,4 +65,4 @@
 </div>		   
 @endsection
 @extends('layouts.app')
-@extends('layouts.header')
+@extends('header')
