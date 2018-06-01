@@ -5,12 +5,41 @@
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
 	</div>
-	<div class="col-md-12 d-flex ">
+	<div class="col-md-12 d-flex ">	
 		<div class="col-sm-1"></div>
-		<div class="img col-sm-3">
-			<img src="img/code.jpg" class="img-thumbnail" alt="Responsive image">
+		<div class="col-sm-4">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			    <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <i class="d-block fab fa-html5 fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				      <i class="d-block fab fa-css3 fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				      <i class="d-block fab fa-js fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-angular fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-react fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-vuejs fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-php fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-wordpress fa-10x"></i>
+				    </div>
+				    <div class="carousel-item">
+				    	<i class="d-block fab fa-laravel fa-10x"></i>
+				    </div>
+			  	</div>
+			</div>
 		</div>
-		<div class="col-sm-1"></div>
 		<div class="col-sm-6">
 			<h3>Qu'apprendre à Simplon Rodez ?</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, veniam voluptatibus doloribus praesentium distinctio harum, ducimus eos esse nam, repudiandae amet explicabo eius unde! Impedit ab nostrum quae recusandae reprehenderit?
@@ -62,7 +91,7 @@
 		</div>
 		<div class="col-sm-1"></div>
 	</div>			
-</div>		   
+</div>		
 @endsection
 @extends('layouts.app')
 @extends('header')
