@@ -10,9 +10,9 @@
 .container-home_sr {
   margin: 1em;
 }
-.sr {
+.we-sr {
   background-color: #EFEFEF;
-  border-radius: 5px;
+  padding-top: 6em;
 }
 .news-sr, .carousel {
   margin-top: 3em;
@@ -26,50 +26,55 @@
   text-decoration: none;
 }
 .link-news {
-  margin-top: 2em;
+  margin-top: 3em;
+}
+.news {
+  padding-top: 3em;
+  background-color: #EFEFEF;
+  border-radius: 5px;
 }
 
 </style>
 
 
 @section('content')
-<section class="we-sr">
-    <div class="container-home_sr">
+<section class="we-sr" style="height: 450px">
+    <div class="container-home_sr we">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="sr card text-center" style="height: 250px">
-                    <h1>SIMPLON-RODEZ</h1>
-                    <div class="card-body">
-                        <h2>Mais qui sommes-nous?</h2>
-                        <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
-                    </div>
-                </div> 
-            </div>
-            <div class="col-md-4">
-                <div class="sr card">
-                    <img src="#" alt="#" style="height: 250px">
-                </div>
+            
+              <div class="col-md-5 text-center">
+                      
+                      <h1>SIMPLON-RODEZ</h1>
+                          <h2>Mais qui sommes-nous?</h2>
+                          <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+                      
+                  </div> 
+              <div class="col-md-5 text-center">
+                  
+                      <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
+                 <!--  </div> -->
+             <!--  </div> -->
             </div>
         </div>
     </div>    
 </section>
 
-<section class="news-sr">
+<section class="news-sr" >
     <div class="container-home_sr">
         <div class="row justify-content-center">
             <div class="col-md-5">
-                <div class="sr card text-center news" style="height: 250px">
+                <div class="card text-center news" style="height: 350px">
                     <p class="presentation">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
                     <h1>OUVERTE !!!</h1>
-                    <div><button type="button" class="btn btn-light">Postuler</button></div>
+                    <div><button type="button" class="btn btn-secondary link-news">Postuler</button></div>
                 </div>  
             </div>
             <div class="col-md-5">
-                <div class="sr card text-center" style="height: 250px">
+                <div class="card text-center news" style="height: 350px">
                     <h3>Evènement à venir</h3>
-                    <p>Du 12 au 14 septembre, la Promo 1 de Simplon-Rodez à le plaisir de vous proposer: l'ACATHON de l'Aveyron!!</p>
+                    <p class="presentation">Du 12 au 14 septembre, la Promo 1 de Simplon-Rodez à le plaisir de vous proposer: l'ACATHON de l'Aveyron!!</p>
                     <p>Premier évènement du genre dans notre beau département...</p>
-                    <div class="#">
+                    <div class="link-news">
                         <a href="#">En savoir plus</a>
                     </div>    
                 </div>
@@ -88,17 +93,17 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" style="height: 350px">
+    <div class="carousel-inner" style="height: 450px">
       <div class="item active">
-        <img src="la.jpg" alt="Los Angeles">
+        <img src="img/footer_logo_ecole_regionale_numerique.jpg" alt="ecole_regionale_numerique">
       </div>
 
       <div class="item">
-        <img src="chicago.jpg" alt="Chicago">
+        <img src="img/footer_logo_rodez_agglomeration.jpg" alt="logo_rodez_agglomeration">
       </div>
 
       <div class="item">
-        <img src="ny.jpg" alt="New York">
+        <img src="img/header_logo_ern_and_ra.png" alt="ern">
       </div>
     </div>
 
