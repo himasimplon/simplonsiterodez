@@ -1,0 +1,24 @@
+/*=========================*/
+/*  view home_sr.blade.php */
+/*=========================*/
+.container-home_sr {
+  margin: 1em;
+}
+.card {
+  background-color: #EFEFEF;
+  border-radius: 5px;
+}
+.news-sr, .carousel {
+  margin-top: 3em;
+}
+.presentation, .we {
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+.btn-secondary {
+  text-decoration: none;
+}
+.link-news {
+  margin-top: 2em;
+}

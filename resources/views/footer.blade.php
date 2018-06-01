@@ -1,6 +1,3 @@
-
-
-
 <!-- Create proper CSS classes where needed
      Adapt scr-references for images to match storage folder -->
 
@@ -12,8 +9,8 @@
 
 
 
-<footer class="page-footer font-small lightgrey pt-4 mt-4">
-	<div class="row">
+<footer class="page-footer font-small mt-4" >
+	<div class="row  pt-3 px-2 ">
 		<div class="col-md-2 col-sm-6">
 		<!-- Image stored in folder /public/img -->
 		<img src="img/footer_logo_ecole_regionale_numerique_224x100.png">
@@ -38,7 +35,7 @@
 	</div>
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <div class="footer-copyright text-center py-1 mt-2">© 2018 Copyright:
     <a href="https://simplon.co/"> Simplon Rodez</a>
   </div>
   <!-- Copyright -->
