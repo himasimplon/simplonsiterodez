@@ -47,6 +47,14 @@ Route::get('/page4_bo', function () {
     return view('page4_bo');
 });
 
+
 Route::get('/list_project', function () {
     return view('list_project');
 });
+
+
+Route ::get('/contact', [
+	'as' => 'contact_path',
+	'uses' => 'ContactsController@create'
+]);
+
