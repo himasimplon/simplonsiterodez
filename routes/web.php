@@ -47,5 +47,8 @@ Route::get('/page4_bo', function () {
     return view('page4_bo');
 });
 
-Route::get('/contact', 'ContactController@create')->name('contact.create'); 
-Route::post('/contact', 'ContactController@store')->name('contact.store');
+
+Route ::get('/contact', [
+	'as' => 'contact_path',
+	'uses' => 'ContactsController@create'
+]);
