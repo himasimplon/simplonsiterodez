@@ -19,6 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/home_sr', function(){
+	return view('home_sr');
+});
+
 Route::get('about', function () {
     return view('about');
 })->middleware('backoffice::class');
