@@ -10417,3 +10417,30 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+/*Start Section Style Description Page: made by David*/
+.block {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.block h2 { 
+  margin-left: 12.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.block img{
+  margin-left: 5rem;
+  width: 17.5rem;
+  height: 17.5rem;
+}
+.block h3, .block p {
+  padding-top: 1.5rem;
+}
+
+.block:nth-child(odd) {
+  background-color: #ce0033;
+  color: #fff;
+}
+.block:nth-child(even) {
+  flex-wrap: wrap-reverse;
+}
+/*End Section Style Description Page*/

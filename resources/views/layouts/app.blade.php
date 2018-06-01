@@ -19,11 +19,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- include libraries(jQuery, bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- include summernote css/js -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
-            <div class="container">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
                {{--  <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -64,11 +70,16 @@
                         @endguest
                     </ul>
                 </div> --}}
-                <main class="py-4">
-                    @yield('description')
-                </main>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </div>
+    <main>
+        @yield('description')
+    </main>
+    <!-- Scripts -->
+   <script src="{{ asset('js/app.js') }}" defer></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 </body>
 </html>
