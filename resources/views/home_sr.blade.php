@@ -7,6 +7,7 @@
 /*=========================*/
 /*  view home_sr.blade.php */
 /*=========================*/
+
 .container-home_sr {
   margin: 1em;
 }
@@ -41,19 +42,13 @@
 <section class="we-sr" style="height: 450px">
     <div class="container-home_sr we">
         <div class="row justify-content-center">
-            
-              <div class="col-md-5 text-center">
-                      
-                      <h1>SIMPLON-RODEZ</h1>
-                          <h2>Mais qui sommes-nous?</h2>
-                          <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
-                      
-                  </div> 
-              <div class="col-md-5 text-center">
-                  
-                      <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
-                 <!--  </div> -->
-             <!--  </div> -->
+            <div class="col-md-5 text-center">
+                <h1>SIMPLON-RODEZ</h1>
+                    <h2>Mais qui sommes-nous?</h2>
+                        <p class="we">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
+            </div> 
+            <div class="col-md-5 text-center">
+                <img class="img-thumbnail" src="img/footer_logo_ecole_regionale_numerique.jpg"  alt="responsive image">
             </div>
         </div>
     </div>    
@@ -95,15 +90,15 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" style="height: 450px">
       <div class="item active">
-        <img src="img/footer_logo_ecole_regionale_numerique.jpg" alt="ecole_regionale_numerique">
+        <img class="img-responsive" src="img/html5.png" alt="ecole_regionale_numerique">
       </div>
 
       <div class="item">
-        <img src="img/footer_logo_rodez_agglomeration.jpg" alt="logo_rodez_agglomeration">
+        <img src="img/js.png" alt="logo_rodez_agglomeration">
       </div>
 
       <div class="item">
-        <img src="img/header_logo_ern_and_ra.png" alt="ern">
+        <img src="img/css.png" alt="ern">
       </div>
     </div>
 
