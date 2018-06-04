@@ -1,6 +1,7 @@
-{{-- Start Page Description made by:DAVID --}}
-@extends('footer')
-@section('description')
+@extends('layouts.default')
+
+@section('content')
+
 <div class="block">
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
@@ -93,5 +94,3 @@
 	</div>			
 </div>		
 @endsection
-@extends('layouts.app')
-@extends('header')
