@@ -20,7 +20,7 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="app">
-       {{--  <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
             </div>     
-        </nav> --}}
+        </nav>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>

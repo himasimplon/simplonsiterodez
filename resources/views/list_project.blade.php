@@ -1,6 +1,6 @@
 
-@extends('layouts.app')
-@extends('header')
+@extends('layouts.default')
+
 
 
 <style type="text/css">
