@@ -6,7 +6,6 @@
 <!--********************-->
 
 <!-- header background is : <img class="headerlogo"  src="../../../storage/app/public/img/header_rodez_panorama_flou.jpg>      -->
-
 <header class="row simplonheader text-center pt-4 ">
 	<div class="col-md-12 col-xs-12">
 		<!-- Image stored in folder storage/app/public/img -->

@@ -1,5 +1,4 @@
 {{-- Navbar by David --}}
-@section('content')
 <nav class="navbar sticky-top">       
     <div class="">
         <ul class="nav justify-content-center">
@@ -24,5 +23,5 @@
         </ul>
     </div>        
 </nav>
-@endsection
+
 
