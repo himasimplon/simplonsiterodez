@@ -18,7 +18,7 @@
     <!-- include summernote css/js -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div id="app">
        {{--  <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
@@ -59,10 +59,6 @@
                 </div>
             </div>     
         </nav> --}}
-    {{-- Insertion Page Description --}}
-    <main>
-        @yield('description')
-    </main>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>

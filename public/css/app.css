@@ -10457,9 +10457,21 @@ a.text-dark:focus {
 }
 /*End Section Style Description Page*/
 
+/*Start style nav bar by david*/
+nav {
+    height: 5rem;
+    background-color: #000; 
+    font-weight: bold;
+    color: #fff; 
+    font-size: 1.4rem;   
+}
+li {
+  list-style-type: none;
+}
+/*End style nav bar*/ 
+
 .card {
   background-color: #EFEFEF;
   border-radius: 5px;
   box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
 }
-

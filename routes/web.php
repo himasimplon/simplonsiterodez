@@ -49,11 +49,9 @@ Route::get('/page4_bo', function () {
 Route::get('/list_project', function () {
     return view('list_project');
 });
-
 Route::get('/descriptionSimplon', function() {
-	return view('descriptionSimplon');
+    return view('descriptionSimplon');
 });
-
 Route::get('/contact', [
 	'as' => 'contact_path',
 	'uses' => 'ContactsController@create'
