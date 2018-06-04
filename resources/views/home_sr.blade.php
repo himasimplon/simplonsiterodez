@@ -1,6 +1,4 @@
-@extends('footer')
-@extends('layouts.app')
-@extends('header')
+@extends('layouts.default')
 
 
 <style>
