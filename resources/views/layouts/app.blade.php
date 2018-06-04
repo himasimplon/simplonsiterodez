@@ -59,9 +59,9 @@
                 </div>
             </div>     
         </nav> --}}
-    {{-- Insertion Page Description --}}
+ <!--    {{-- Insertion Page Description --}} -->
     <main>
-        @yield('description')
+        @yield('content')
     </main>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
