@@ -37,7 +37,7 @@
 
 
 @section('content')
-<section class="we-sr" style="height: 450px">
+<section class="we-sr" style="min-height: 450px">
     <div class="container-home_sr we">
         <div class="row justify-content-center">
             <div class="col-md-5 text-center">
@@ -56,14 +56,14 @@
     <div class="container-home_sr">
         <div class="row justify-content-center">
             <div class="col-md-5">
-                <div class="card text-center news" style="height: 350px">
+                <div class="card text-center news" style="min-height: 350px">
                     <p class="presentation">Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.</p>
                     <h1>OUVERTE !!!</h1>
                     <div><button type="button" class="btn btn-secondary link-news">Postuler</button></div>
                 </div>  
             </div>
             <div class="col-md-5">
-                <div class="card text-center news" style="height: 350px">
+                <div class="card text-center news" style="min-height: 350px">
                     <h3>Evènement à venir</h3>
                     <p class="presentation">Du 12 au 14 septembre, la Promo 1 de Simplon-Rodez à le plaisir de vous proposer: l'ACATHON de l'Aveyron!!</p>
                     <p>Premier évènement du genre dans notre beau département...</p>
@@ -86,7 +86,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" style="height: 450px">
+    <div class="carousel-inner" style="min-height: 450px">
       <div class="item active">
         <img class="img-responsive" src="img/html5.png" alt="ecole_regionale_numerique">
       </div>
