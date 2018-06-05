@@ -1,7 +1,7 @@
-{{-- Start Page Description made by:DAVID --}}
 @extends('layouts.default')
+
 @section('content')
-	{{-- Start Section Style Description Page: made by DAVID --}}
+	
 <style type="text/css">
 .block {
   	padding-top: 3rem;
@@ -44,10 +44,7 @@
 	text-align: center;
 }
 </style>
-{{-- End Section Style Description Page --}}
-@extends('layouts.default')
-@section('content')
-{{-- Block 1 --}}
+
 <div class="block">
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
