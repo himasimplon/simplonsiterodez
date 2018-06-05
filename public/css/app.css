@@ -34,7 +34,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: 'Ubuntu','Nunito Sans', sans-serif;
+  --font-family-sans-serif: 'Ubuntu','Nunito Sans', sans-serif !important;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -10418,6 +10418,7 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
 /*Start Section Style Description Page: made by David*/
 .block {
   padding-top: 3rem;
@@ -10457,9 +10458,5 @@ a.text-dark:focus {
 }
 /*End Section Style Description Page*/
 
-.card {
-  background-color: #EFEFEF;
-  border-radius: 5px;
-  box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
-}
+
 
