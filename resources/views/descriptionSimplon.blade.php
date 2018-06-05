@@ -1,8 +1,8 @@
 {{-- Start Page Description made by:DAVID --}}
 @extends('layouts.default')
 @section('content')
+	{{-- Start Section Style Description Page: made by DAVID --}}
 <style type="text/css">
-	/*Start Section Style Description Page: made by David*/
 .block {
   	padding-top: 3rem;
   	padding-bottom: 3rem;
@@ -43,8 +43,11 @@
 	margin-left: 4rem;
 	text-align: center;
 }
-/*End Section Style Description Page*/
 </style>
+{{-- End Section Style Description Page --}}
+@extends('layouts.default')
+@section('content')
+{{-- Block 1 --}}
 <div class="block">
 	<div class="col-md-12">
 		<h2>DÉVELOPPEUR.SE WEB</h2>
@@ -111,7 +114,7 @@
 		<div class="col-sm-1"></div>
 	</div>					
 </div>
-
+{{-- Block 2 --}}
 <div class="block">
 	<div class="col-md-12">
 		<h2>LE DIPLÔME, LA DURÉE</h2>
@@ -132,7 +135,7 @@
 		<div class="col-sm-1"></div>
 	</div>	
 </div>
-
+{{-- Block 3 --}}
 <div class="block">
 	<div class="col-md-12">	
 		<h2>TÉMOIGNAGES</h2>
@@ -153,4 +156,4 @@
 		<div class="col-sm-1"></div>
 	</div>			
 </div>		
-@endsection
+@stop
