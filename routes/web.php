@@ -59,13 +59,12 @@ Route::get('/contact', [
 	'uses' => 'ContactsController@create'
 ]);
 
+Route::post('/contact', [
+    'as' => 'contact_path',
+    'uses' => 'ContactsController@store'
+]);
+
 Route::get('/simplonFrance', function() {
     return view('simplonFrance');
 });
-
-Route::post('/contact', [
-	'as' => 'contact_path',
-	'uses' => 'ContactsController@store'
-]);
-
 
