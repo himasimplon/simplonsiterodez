@@ -10418,6 +10418,48 @@ a.text-dark:focus {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.block {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.block h3, .block p {
+    padding-top: 1.5rem;
+}
+.block i {
+    margin-top: 4rem;
+    margin-left: 10rem;
+    width: 17.5rem;
+    height: 17.5rem;
+}  
+    /*Style section 1 and 3 of Description page*/
+.block h2:nth-child(odd) { 
+    margin-left: 12.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.block img:nth-child(odd){
+    margin-left: 5rem;
+    width: 17.5rem;
+    height: 17.5rem;
+}
+.block:nth-child(odd) {
+    background-color: #ce0033;
+    color: #fff;
+}
+    /*End style section 1 and 3 of Description page*/
+.block:nth-child(even) {
+    background-color: #c9c9c9;
+}
+.carousel img{
+  width:17.5rem;
+    height: 17.5rem; 
+}
+.titleIcon{
+  margin-left: 4rem;
+  text-align: center;
+}
+
 .card {
   background-color: #EFEFEF;
   border-radius: 5px;

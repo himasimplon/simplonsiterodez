@@ -2,48 +2,6 @@
 
 @section('content')
 	
-<style type="text/css">
-.block {
-  	padding-top: 3rem;
-  	padding-bottom: 3rem;
-}
-.block h3, .block p {
-  	padding-top: 1.5rem;
-}
-.block i {
-  	margin-top: 4rem;
-  	margin-left: 10rem;
-  	width: 17.5rem;
-  	height: 17.5rem;
-}  
-    /*Style section 1 and 3 of Description page*/
-.block h2:nth-child(odd) { 
-  	margin-left: 12.5rem;
-  	padding-right: 1rem;
-  	padding-bottom: 1rem;
-}
-.block img:nth-child(odd){
-  	margin-left: 5rem;
-  	width: 17.5rem;
-  	height: 17.5rem;
-}
-.block:nth-child(odd) {
-  	background-color: #ce0033;
-  	color: #fff;
-}
-    /*End style section 1 and 3 of Description page*/
-.block:nth-child(even) {
-  	background-color: #c9c9c9;
-}
-.carousel img{
-	width:17.5rem;
-  	height: 17.5rem; 
-}
-.titleIcon{
-	margin-left: 4rem;
-	text-align: center;
-}
-</style>
 
 <div class="block">
 	<div class="col-md-12">
