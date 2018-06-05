@@ -12,6 +12,6 @@ class CustomLoginController extends Controller
     $user=new User;
 
     $user->login=request('login');
-    $user->password=Hash::make (request('passwsord'));
+    $user->password=Hash::make (request('password'));
 
 }

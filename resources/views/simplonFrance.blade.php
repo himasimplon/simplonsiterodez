@@ -1,7 +1,22 @@
 @extends('layouts.default')
 
 <style>
-
+	.block img{
+		margin-left: 5rem;
+		width: 17.5rem;
+		height: 17.5rem;
+	}
+	.prgp{
+		margin-left: 5rem;
+	}
+	.psr{
+		margin-left: 5rem;
+	}
+	.p-2{
+		margin-top: 2rem;
+		margin-left: 1.5rem;
+		margin-bottom: 2rem;
+	}
 </style>
 
 @section('content')
@@ -9,106 +24,94 @@
 	<div class="col-md-12">
 		<h2>Simplon France</h2>
 	</div>
-	<div class="col-md-12">			
+	<div class="col-md-12 d-flex">			
 		<div class="col-sm-1"></div>
 		<div class="col-sm-3">
-			<img src="#" class="splFrc" alt="Logo Simplon">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" class="img-thumbnail" alt="Logo Simplon">
 		</div>
-	</div>
-	<div class="col-sm-6">
-		<p class="block1">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
-		</p>	
+		<div class="col-sm-1"></div>
+		<div class="col-sm-6">
+			<p>Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
+			</p>	
+		</div>
+		<div class="col-sm-1"></div>
 	</div>
 </div>
-<div class="block">
 
-	<div class="carousel">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-      			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      			<li data-target="#myCarousel" data-slide-to="1"></li>
-      			<li data-target="#myCarousel" data-slide-to="2"></li>
-    		</ol>
+<section class="carousel sr">
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+	<div class="carousel-inner" style="min-height: 450px">
+		<div class="carousel-item active">
+			<img src="img/html5.png" alt="html5">
 		</div>
-		<div class="carousel-inner" style="height: 450px">
-      		<div class="item active">
-        		<img class="img-responsive" src="img/footer_logo_ecole_regionale_numerique.jpg" alt="ecole_regionale_numerique">
-      		</div>
-      		<div class="item">
-        		<img src="img/footer_logo_rodez_agglomeration.jpg" alt="logo_rodez_agglomeration">
-      		</div>
-      		<div class="item">
-        		<img src="img/footer_logo_simplon_rodez_123x100.png" alt="ern">
-      		</div>
-      	</div>
-      	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      		<span class="glyphicon glyphicon-chevron-left"></span>
-      		<span class="sr-only">Previous</span>
-    	</a>
-    	<a class="right carousel-control" href="#myCarousel" data-slide="next">
-      		<span class="glyphicon glyphicon-chevron-right"></span>
-      		<span class="sr-only">Next</span>
-    	</a>
-    </div>
+		<div class="carousel-item">
+			<img src="img/js.png" alt="js">
+		</div>
+		<div class="carousel-item">
+			<img src="img/css.png" alt="css">
+		</div>
+	</div>
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</a>
+	</div>
+</section>
 
-</div>
 <div class="block">
 	<div class="col-md-12">
 		<h2>La méthode active</h2>
 	</div>
-	<div class="col-sm-6">
-		<p class="block2">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
-		</p>	
-	</div>
 	<div class="col-md-12 d-flex">			
 		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img id="mthActv" src="#" class="crtf" alt="Certification">
+		<div class="col-sm-6">
+			<p class="prgp">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
+			</p>	
 		</div>
+		<div class="col-sm-3">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" class="img-thumbnail" alt="Logo Simplon">
+		</div>
+		<div class="col-sm-1"></div>
 	</div>
 </div>
+
 <div class="block">
 	<div class="col-md-12">
 		<h2>Partenaires Simplon Rodez</h2>
 	</div>
-	<div class="col-sm-6">
-		<p class="block3">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
-		</p>	
-	</div>
 	<div class="col-md-12 d-flex">			
 		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="cci" alt="CCI Aveyron">
+			<p class="psr">Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam. <br> Duis id luctus elit. Vestibulum sed molestie enim. Donec in nibh facilis, tempus mauris vitae, effectur quam.	
+			</p>	
+		<div class="col-sm-1"></div>
+	</div>
+	<div class="d-flex flex-row">
+		<div class="p-2">
+			<img src="img/css.png" alt="CCI Aveyron">
+		</div>
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="Fabrique d'initiatives citoyennes">
+		</div>
+		<div class="p-2">
+			<img src="img/css.png" alt="illam Informatique">
 		</div>
 	</div>
-	<div class="col-md-12 d-flex">			
-		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="fdc" alt="Fabrique d'initiatives citoyennes">
+	<div class="d-flex flex-row">
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="CCI Aveyron">
 		</div>
-	</div>
-	<div class="col-md-12 d-flex">			
-		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="ilinfo" alt="Illam Informatique">
+		<div class="p-2">
+			<img src="img/css.png" alt="Fabrique d'initiatives citoyennes">
 		</div>
-	</div>
-	<div class="col-md-12 d-flex">			
-		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="mjc" alt="MJC Rodez">
-		</div>
-	</div>
-	<div class="col-md-12 d-flex">			
-		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="rmi" alt="RM Ingenierie">
-		</div>
-	</div>
-	<div class="col-md-12 d-flex">			
-		<div class="col-sm-1"></div>
-		<div class="col-sm-3">
-			<img src="#" class="rdzAgl" alt="Rodez Agglomération">
+		<div class="p-2">
+			<img src="img/footer_logo_rodez_agglomeration_222x100.png" alt="illam Informatique">
 		</div>
 	</div>
 </div>

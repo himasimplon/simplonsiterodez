@@ -1,11 +1,9 @@
 @extends('layouts.default')
 
-
 <style>
 /*=========================*/
 /*  view home_sr.blade.php */
 /*=========================*/
-
 .container-home_sr {
   margin: 1em;
 }
@@ -16,10 +14,9 @@
 .news-sr, .carousel {
   margin-top: 3em;
 }
-.presentation, .we {
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
+.we {
+  margin: 2em;
+ 
 }
 .btn-secondary {
   text-decoration: none;
@@ -27,14 +24,23 @@
 .link-news {
   margin-top: 3em;
 }
+.presentation_h3 {
+  margin-top: 2em;
+}
+.h1_news {
+  padding-top: 0.5em;
+}
+.h3_news {
+  padding-bottom: 1em;
+}
 .news {
-  padding-top: 3em;
+  padding: 2em;
+  border-radius: 5px;
   background-color: #EFEFEF;
   border-radius: 5px;
+  box-shadow: 8px 0 8px -10px #000000,-8px 0 8px -10px #000000;
 }
-
 </style>
-
 
 @section('content')
 <section class="we-sr" style="min-height: 450px">
@@ -51,7 +57,6 @@
         </div>
     </div>    
 </section>
-
 <section class="news-sr" >
     <div class="container-home_sr">
         <div class="row justify-content-center">
@@ -73,12 +78,14 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
+    </div>
+  </div>
+</section>
 <section class="carousel sr">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="demo" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
+
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -89,29 +96,24 @@
     <div class="carousel-inner" style="min-height: 450px">
       <div class="item active">
         <img class="img-responsive" src="img/html5.png" alt="ecole_regionale_numerique">
-      </div>
 
-      <div class="item">
-        <img src="img/js.png" alt="logo_rodez_agglomeration">
       </div>
-
-      <div class="item">
-        <img src="img/css.png" alt="ern">
+      <div class="carousel-item">
+        <img src="img/js.png" alt="js">
+      </div>
+      <div class="carousel-item">
+        <img src="img/css.png" alt="css">
       </div>
     </div>
-
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
     </a>
   </div>
 </section>
-  
 @endsection
 
 
